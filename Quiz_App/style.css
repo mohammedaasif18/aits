@@ -1,0 +1,74 @@
+
+body {
+    background-color: burlywood;
+    font-family: "Playwrite NZ", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    width: 100vw;
+    height:100vh;
+    background-color: #e893f4;
+    border-radius: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(244, 242, 242, 0.933);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+    align-items: end;
+  }
+  
+  #question-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  #answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  button {
+    height: 40px;
+    font-size: 16px;
+    background-color: #e5f0e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #d2d2d2;
+  }
+  
+  #controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #timer-container {
+    display: flex;
+    
+  }
+  
+  #timer-text {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #timer {
+    font-weight: bold;
+    margin-left: 5px;
+  }
